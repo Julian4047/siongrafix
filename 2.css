@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "bigdeal";
+    src: url(./aBigDeal.ttf);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url(./bg_ycle5-01.jpg);
+    background-size: cover;
+}
+
+.container0 {
+    width: 830px;
+    height: 1340px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: grid;
+    justify-content: center;
+}
+
+.banner {
+    background: rgba(126, 255, 100, 0.658);
+    width: 720px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "bigdeal";
+    color: black;
+}
+
+.main {
+    background: rgb(0, 0, 0, .2);
+    width: 720px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    color: white;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: rgb(0, 0, 0, .2);
+}
+
+.arrow_right {
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: yellow;
+}
+
+.arrow {
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: yellow;
+}
+
+nav a:hover {
+    color: black;
+    background: yellow;
+    font-size: 16px;
+}
+
+.s1 {
+    background: rgb(0, 0, 0, .2);
+    width: 720px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#photos {
+    background: rgb(0, 0, 0, .2);
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 70px;
+    height: auto;
+}
+
+#photos:hover {
+    background: yellow;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    width: 80px;
+    height: auto;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
+}
+
+.s2 {
+    background: rgba(223, 255, 79);
+    width: 450px;
+    height: 580px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#s2a {
+    font-family: "bigdeal";
+    font-size: 45px;
+    height: 100px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+#s2b {
+    height: 100px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.s3 {
+    background: rgb(0, 0, 0, .2);
+    width: 250px;
+    height: 580px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: "bigdeal";
+    font-size: 45px;
+    margin: 35PX;
+    text-align: center;
+    color: grey;
+}
+
+p {
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+}
+
+#join2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+button {
+    width: 175px;
+    height: 25px;
+    background: grey;
+    margin: 10px;
+    border-bottom: none;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "bigdeal";
+}
+
+.container3 {
+    display: grid;
+    justify-content: center;
+}
+
+.s4a {
+    background: black;
+    width: 720px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s4b {
+    background: rgb(196, 196, 196);
+    width: 720px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#polity {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+    text-align: right;
+}
+
+#contact {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
